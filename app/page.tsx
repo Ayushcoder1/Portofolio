@@ -10,9 +10,6 @@ export default async function Home() {
   return (
     
     <div className='grid grid-cols-3 mx-10'>
-      <div className="col-span-3">
-        <Topbar />
-      </div>
       <div className='col-span-1'>
         <Theme />
         <Bio />

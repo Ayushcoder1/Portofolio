@@ -8,7 +8,7 @@ function Techstack(){
             <div className="flex flex-wrap justify-center mt-4">
                 {arr.map(function(ele){
                     return (
-                        <div className="m-2 bg-black text-white rounded-full text-center px-4 py-2">
+                        <div key={ele} className="m-2 bg-black text-white rounded-full text-center px-4 py-2">
                             <p>{ele}</p>
                         </div>
                     )
