@@ -16,7 +16,7 @@ function Theme() {
               if(!menu) return;
               menu.classList.toggle('hidden');
             }}
-            className="inline-flex items-center w-45 text-end bg-white hover:bg-zinc-100 text-zinc-400 font-medium rounded-lg text-sm px-5 py-2.5 "
+            className="inline-flex font-mono items-center w-45 text-end bg-white hover:bg-zinc-100 text-zinc-400 font-medium rounded-lg text-sm px-5 py-2.5 "
           >
             Chose Theme
             <svg className="w-2.5 h-2.5 ms-3" fill="none" viewBox="0 0 10 6" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
